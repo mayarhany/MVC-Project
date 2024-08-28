@@ -1,0 +1,43 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+</head>
+<body>
+
+    <header>
+        <center>
+            @* 1- html tags *@
+            @* <a href="/Home/Index" class="btn btn-primary">Home</a>
+            <a href="/Home/AboutUs" class="btn btn-dark">About Us</a>
+            <a href="/Home/contactUs" class="btn btn-danger">Contact Us</a>
+            <a href="/Home/Privacy" class="btn btn-success">Privacy</a> *@
+
+            @* 2- html helpers *@
+           @*  @Html.ActionLink("Home", "Index", "Home", null, new { @class = "btn btn-primary" })
+            @Html.ActionLink("About Us", "About Us", "Home", null, new { @class = "btn btn-dark" })
+            @Html.ActionLink("Contact Us", "Contact Us", "Home", null, new { @class = "btn btn-danger" })
+            @Html.ActionLink("Privacy", "Privacy", "Home", null, new { @class = "btn btn-success" }) *@
+
+            @* 3- Tag Helper *@
+            <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Home</a>
+            <a asp-controller="Home" asp-action="About Us" class="btn btn-dark">About Us</a>
+            <a asp-controller="Home" asp-action="Contact Us" class="btn btn-danger">Contact Us</a>
+            <a asp-controller="Home" asp-action="Privacy" class="btn btn-success">Privacy</a>
+        </center>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer class="fixed-bottom">
+        Copyright &copy; Route Academy; @DateTime.Now.Year
+    </footer>
+</body>
+</html>

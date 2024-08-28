@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Backend\\week16\\Session 02\\MVCDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E730A236-A003-469B-83E1-DA9AA98E1567}|MVCDemo\\MVCDemo.csproj|d:\\backend\\week16\\session 02\\mvcdemo\\mvcdemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E730A236-A003-469B-83E1-DA9AA98E1567}|MVCDemo\\MVCDemo.csproj|solutionrelative:mvcdemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E730A236-A003-469B-83E1-DA9AA98E1567}|MVCDemo\\MVCDemo.csproj|d:\\backend\\week16\\session 02\\mvcdemo\\mvcdemo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E730A236-A003-469B-83E1-DA9AA98E1567}|MVCDemo\\MVCDemo.csproj|solutionrelative:mvcdemo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Backend\\week16\\Session 02\\MVCDemo\\MVCDemo\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MVCDemo\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Backend\\week16\\Session 02\\MVCDemo\\MVCDemo\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MVCDemo\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T07:57:09.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Backend\\week16\\Session 02\\MVCDemo\\MVCDemo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVCDemo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Backend\\week16\\Session 02\\MVCDemo\\MVCDemo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVCDemo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T07:34:57.127Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
